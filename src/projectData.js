@@ -5,9 +5,7 @@ import * as projects from './reducers/projects';
 // Called by `entry.jsx` to fetch initial data (project and tag lists)
 // from a static JSON file served by a CDN
 export function getInitialData() {
-  return request.get(process.env.API + 'projects.json')
-    //.then(response => response.json())
-    .then(json => new Promise( (resolve) => resolve(getInitialState(json.data)) ));
+  return new Promise( (resolve) => resolve(getInitialState(BESTOFJS.githubData)) );
 }
 
 const defaultState = {
