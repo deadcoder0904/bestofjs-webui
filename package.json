@@ -74,7 +74,7 @@
     "redux-form": "6.2.0",
     "redux-logger": "^2.0.2",
     "redux-thunk": "^2.1.0",
-    "slideout": "^0.1.11",
+    "slideout": "^1.0.1",
     "style-loader": "0.13.1",
     "stylus-loader": "2.3.1",
     "stylus": "0.54.5",
