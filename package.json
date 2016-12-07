@@ -80,7 +80,7 @@
     "stylus": "0.54.5",
     "url-loader": "^0.5.7",
     "vague-time": "^2.4.0",
-    "webpack": "1.13.3"
+    "webpack": "1.14.0"
   },
   "devDependencies": {
     "babel-eslint": "^7.0.0",
