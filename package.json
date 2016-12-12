@@ -39,7 +39,7 @@
   },
   "homepage": "http://bestof.js.org",
   "dependencies": {
-    "autoprefixer": "^6.3.3",
+    "autoprefixer": "^6.5.4",
     "babel-cli": "6.18.0",
     "babel-core": "6.18.2",
     "babel-loader": "6.2.8",
